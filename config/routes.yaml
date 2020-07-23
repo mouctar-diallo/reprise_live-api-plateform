@@ -1,0 +1,10 @@
+#route de la connexion
+api_login_check:
+  path: /api/login_check
+
+#route pour liste des apprenants
+list_formateur:
+   path: /api/formateurs
+   controller: App\Controller\ApprenantController::getApprenants
+   methods: 
+      ['GET']
